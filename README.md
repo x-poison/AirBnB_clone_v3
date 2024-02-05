@@ -16,15 +16,8 @@
 
 ## Description
 
-**hbnb** is a full-stack clone of the web application [AirBnB](https://www.airbnb.com/). This clone was built in four iterative phases. This version includes completion of Phase 1 from [AirBnB_clone_v1: Console and web static](https://github.com/bchen528/AirBnB_clone_v1), Phase 2 from [AirBnB_clone_v2](https://github.com/bchen528/AirBnB_clone_v2) plus Phase 3, which involves exposing stored objects via a JSON web interface and manipulating objects via a custom RESTful API.
-
 ### Create a custom RESTful API, expose stored objects via JSON web interface, manipulate objects via custom RESTful API
 ![restful_api](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step4.png)
-
-**Links to other versions:**
-* [AirBnB_clone_v1: Console and web static](https://github.com/bchen528/AirBnB_clone_v1)
-* [AirBnB_clone_v2: MySQL, deploy web static, web framework](https://github.com/bchen528/AirBnB_clone_v2)
-* [AirBnB_clone_v4: Web dynamic](https://github.com/bchen528/AirBnB_clone_v4) (Final version!)
 
 ## Purpose
 The purpose of Phase 3 is to learn how to:
@@ -41,7 +34,7 @@ The purpose of Phase 3 is to learn how to:
 * All files must be pep8 compliant
 
 ## File Descriptions
-  **Note:** Below highlights only new file additions for Phase 3. For file descriptions from previous phases, click [Phase 2](https://github.com/bchen528/AirBnB_clone_v2) and [Phase 1](https://github.com/bchen528/AirBnB_clone_v1).
+ 
   * [tests](/tests/) - unit test files
   * [models](models) - contains all class models for AirBnB objects
     * [engine](models/engine) - contains storage engines
@@ -428,20 +421,6 @@ user@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/cities/1da255c0-
 At this time, there are no known bugs.
 
 ## Authors
-Phase 3:
-* Becky Chen | [GitHub](https://github.com/bchen528) | [Twitter](https://twitter.com/bchen803)
-* Alex Allen | [GitHub](https://github.com/aDENTinTIME) | [Twitter](https://twitter.com/adentintime)
+* Abdulrahman | [GitHub](https://github.com/x-poison) 
+* Isaac Mutunga | [GitHub](https://github.com/IsaacTranquilo)
 
-**Note: As per Holberton's requirements, we practice working with new Phase 1 and 2 codebases in our Phase 3 version.**
-
-Phase 2 codebase: 
-* Melissa Ng | [Github](https://github.com/MelissaN)
-* Adriel Tolentino | [Github](https://github.com/adrielt07)
-
-Phase 1 codebase:
-* Binita Rai | [Github](https://github.com/rayraib)
-* Steven Garcia | [Github](https://github.com/stvngrcia)
-
-## License
-
-**hbnb** is open source and free to download and use
